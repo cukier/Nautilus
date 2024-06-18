@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 85.09 68.58)
-		(size 58.42 41.275)
+		(size 12.7 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -28,13 +28,53 @@
 			)
 		)
 		(property "Sheetfile" "core.kicad_sch"
-			(at 85.09 110.4396 0)
+			(at 85.09 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "CHAN_1" input
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a396085-5099-47ae-918e-2f801e48631f")
+		)
+		(pin "FAN" input
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "678dfd4c-3672-4cf8-8031-bf398960f8d3")
+		)
+		(pin "CHAN_2" input
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c14ca2a-94c8-41e9-9b10-4feb8f4b762c")
+		)
+		(pin "CHAN_3" input
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1294fabe-8375-4c6f-8bd2-8a8c7896f8e9")
 		)
 		(instances
 			(project "Nautilus"
@@ -79,6 +119,45 @@
 			(project "Nautilus"
 				(path "/923bbe6b-84fc-4c9c-ba1b-9f61307feb8d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 70.485)
+		(size 15.24 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8f5d5482-a078-46e1-b2d3-6ce21fabb322")
+		(property "Sheetname" "chan"
+			(at 115.57 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chan.kicad_sch"
+			(at 115.57 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nautilus"
+				(path "/923bbe6b-84fc-4c9c-ba1b-9f61307feb8d"
+					(page "4")
 				)
 			)
 		)
